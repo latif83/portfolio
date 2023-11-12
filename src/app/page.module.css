@@ -1,0 +1,33 @@
+.imgContainer{
+    width:300px;
+    height: 300px;
+}
+
+.container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.projectsImgContainer{
+    width: 100%;
+    height: 400px;
+}
+
+.projectAbsImg{
+    position: absolute;
+    right: -10%;
+    bottom: -30%;
+    display: none;
+}
+
+@media(max-width:500px){
+    .imgContainer{
+        width: 250px;
+        height: 250px;
+    }
+    .projectsImgContainer{
+        width: 100%;
+        height: 200px;
+    }
+}
