@@ -273,13 +273,16 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-10">
-            <p className="text-center pb-5">
+          
+        </div>
+
+
+        <div className="mt-10 bg-green-800 text-gray-300">
+            <p className="text-center py-3">
               &copy; 2023 <br />
               Abdul-Latif Mohammed
             </p>
           </div>
-        </div>
       </div>
     </main>
   );
